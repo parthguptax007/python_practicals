@@ -1,7 +1,7 @@
 # Make a function that takes a number N as input and returns the value of factorial of N.
 # Use this function to print the number of ways a set of m red and n blue balls can be
 # arranged.
-
+# something something idk what is happening but its better
 while True:
     try:
         def calc_ways(N):
