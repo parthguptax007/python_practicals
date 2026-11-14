@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+       Num1 :: <input type="text" id="a"><br><br>
+       Num2 :: <input type="text" id="b"><br><br>
+       <button onclick="add()">ADDITION</button>
+       <button onclick="sub()">SUBTRACTION</button>
+       <button onclick="Mul()">MULTIPLICATION</button>
+       <button onclick="Div()">DIVISION</button>
+       <button onclick="Mod()">MODULO</button>
+    
+        <script>
+            function add(){
+                let a = Number(document.getElementById("a").value);
+                let b = Number(document.getElementById("b").value);
+                var result = a+b;
+                alert(result);
+            }
+            function sub(){
+                let a = Number(document.getElementById("a").value);
+                let b = Number(document.getElementById("b").value);
+                var result = a-b;
+                alert(result);
+            }
+            function Mul(){
+                let a = Number(document.getElementById("a").value);
+                let b = Number(document.getElementById("b").value);
+                var result = a*b;
+                alert(result);
+            }
+            function Div(){
+                let a = Number(document.getElementById("a").value);
+                let b = Number(document.getElementById("b").value);
+                var result = a/b;
+                alert(result);
+            }
+            function Mod(){
+                let a = Number(document.getElementById("a").value);
+                let b = Number(document.getElementById("b").value);
+                var result = a%b;
+                alert(result);
+            }
+        </script>
+    </body>
+</html>
